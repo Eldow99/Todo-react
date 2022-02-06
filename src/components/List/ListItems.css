@@ -1,0 +1,19 @@
+.li.checked {
+	text-decoration: line-through;
+	background-color: coral;
+}
+
+.block {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+.block li {
+	font-size: 1.3rem;
+}
+.block input {
+	width: 30px;
+	height: 1.2rem;
+}
